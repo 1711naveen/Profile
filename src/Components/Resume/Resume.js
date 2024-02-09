@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../../App.css'
 import { FaFileDownload } from "react-icons/fa";
 import { Document, Page } from 'react-pdf';
