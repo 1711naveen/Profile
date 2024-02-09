@@ -5,14 +5,16 @@ import { IoPersonOutline } from "react-icons/io5";
 import { HiOutlineDocumentText } from "react-icons/hi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { Link } from 'react-router-dom';
+import { IoIosGitBranch } from "react-icons/io";
+import { FaStar } from "react-icons/fa6";
 
 
 const Navbar = () => {
     return (
-        <div style={{ position: "fixed",top:0, width: "100%" ,zIndex:1}}>
+        <div style={{ position: "fixed", top: 0, width: "100%", zIndex: 1 }}>
             <nav className="navbar navbar-expand-lg bg-body-tertiary custom-nav">
                 <div className="container-fluid">
-                    <Link className="navbar-brand ms-5 me-5 ps-5 pe-5" to="/"><span className="focus-color" style={{fontSize:"1.2em"}}><strong>NY.</strong></span></Link>
+                    <Link className="navbar-brand ms-5 me-5 ps-5 pe-5" to="/"><span className="focus-color" style={{ fontSize: "1.2em" }}><strong>NY.</strong></span></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -33,10 +35,21 @@ const Navbar = () => {
                                     <span className='custdark'><AiOutlineFundProjectionScreen className='mb-1 me-2' />Project</span>
                                 </Link>
                             </li>
+                            <li className="nav-item me-3 p-1">
+                                <Link className="nav-link" to="/resume">
+                                    <span className='custdark'><HiOutlineDocumentText className='mb-1 me-2' />Resume</span></Link>
+                            </li>
                             <li className="nav-item me-5 p-1">
                                 <Link className="nav-link" to="/resume">
-                                    <span className='custdark'><HiOutlineDocumentText className='mb-1 me-2' />
-                                        Resume</span></Link>
+                                    <span className='custdark'>
+                                        <a href="google.com" target='_blank'>
+                                            <button type="button" class="btn gitBtn pb-1" >
+                                                <IoIosGitBranch className='ms-2 me-2' />
+                                                <FaStar className='me-2' />
+                                            </button>
+                                        </a>
+                                    </span>
+                                </Link>
                             </li>
                         </ul>
                     </div>

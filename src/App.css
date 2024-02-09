@@ -15,12 +15,12 @@
     /* margin: auto; */
 }
 
-.custom-project{
+.custom-project {
     display: block;
     margin: 180px auto 60px;
 }
 
-.custom-resume{
+.custom-resume {
     display: block !important;
     margin: 120px auto 60px;
 }
@@ -56,6 +56,27 @@
     margin: -20px 14px !important;
 }
 
-.custom-border{
+.custom-border {
     border-color: #45050C !important;
 }
+
+
+.gitBtn {
+    background-color: #210F04 !important;
+    border: none;
+    color: #FFFFFF;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+
+.gitBtn:hover {
+    background-color: #432a1b !important;
+    color: white !important;
+}
+
+/* .gitBtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} */
