@@ -40,14 +40,15 @@ const Navbar = () => {
                                     <span className='custdark'><HiOutlineDocumentText className='mb-1 me-2' />Resume</span></Link>
                             </li>
                             <li className="nav-item me-5 p-1">
-                                <Link className="nav-link" to="/resume">
+                                <Link className="nav-link" to="https://github.com/1711naveen/Profile" target='_blank'>
                                     <span className='custdark'>
-                                        <a href="google.com" target='_blank'>
+                                        {/* <a href="https://google.com" target='_blank'> */}
+
                                             <button type="button" class="btn gitBtn pb-1" >
                                                 <IoIosGitBranch className='ms-2 me-2' />
                                                 <FaStar className='me-2' />
                                             </button>
-                                        </a>
+                                        {/* </a> */}
                                     </span>
                                 </Link>
                             </li>

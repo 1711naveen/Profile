@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 
@@ -53,32 +54,32 @@ const Home2 = () => {
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav m-auto mb-2 mb-lg-0 home-social-icon">
                                         <li class="nav-item">
-                                            <a className='nav-link icon-color ' href="nav-link" target='_blank'>
+                                            <Link className='nav-link icon-color ' to="https://github.com/1711naveen/" target='_blank'>
                                                 <Tilt>
-                                                    <FaGithub />
+                                                    <FaGithub style={{color:"#45050C"}} />
                                                 </Tilt>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li class="nav-item">
-                                            <a className='nav-link icon-color ' href="nav-link" target='_blank'>
+                                            <Link className='nav-link icon-color' to="https://twitter.com/YnNaveen00" target='_blank'>
                                                 <Tilt>
-                                                    <FaTwitter />
+                                                    <FaTwitter style={{color:"#45050C"}} />
                                                 </Tilt>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li class="nav-item">
-                                            <a className='nav-link icon-color ' href="nav-link" target='_blank'>
+                                            <Link className='nav-link icon-color ' to="https://www.linkedin.com/in/naveenyadav1711/" target='_blank'>
                                                 <Tilt>
-                                                    <FaLinkedin />
+                                                    <FaLinkedin style={{color:"#45050C"}} />
                                                 </Tilt>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li class="nav-item">
-                                            <a className='nav-link icon-color ' href="nav-link" target='_blank'>
+                                            <Link className='nav-link icon-color ' to="nav-link" target='_blank'>
                                                 <Tilt>
-                                                    <FaSquareInstagram />
+                                                    <FaSquareInstagram style={{color:"#45050C"}}/>
                                                 </Tilt>
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
 
