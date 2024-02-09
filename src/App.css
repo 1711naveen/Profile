@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+.home {
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.center-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 180px auto 10px;
+
+    /* margin: auto; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-project{
+    display: block;
+    margin: 180px auto 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-resume{
+    display: block !important;
+    margin: 120px auto 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+    width: 100% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-nav {
+    background-color: rgb(192, 213, 232) !important;
+    font-size: larger;
+    font-family: 'Josefin Sans', cursive;
+    font-weight: 700;
+}
+
+.custdark {
+    color: black !important;
+}
+
+.focus-color {
+    color: #45050C;
+}
+
+.icon-color {
+    position: relative !important;
+    display: inline-block !important;
+    color: #45050C;
+    text-align: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 2em !important;
+    transition: 0.5s !important;
+    margin: -20px 14px !important;
+}
+
+.custom-border{
+    border-color: #45050C !important;
 }
