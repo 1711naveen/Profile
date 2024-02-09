@@ -4,7 +4,7 @@ import imgNotes from '../../Assets/cloudNotebook.jpg'
 
 const Project = () => {
     return (
-        <>
+        <div className='set-font' style={{fontSize:"1.2em"}}>
             <div className='container custom-project'>
                 <div>
                     <h1 className='text-center p-2 mb-3'>My Recent <span className="focus-color"><strong>Works</strong></span></h1>
@@ -43,7 +43,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

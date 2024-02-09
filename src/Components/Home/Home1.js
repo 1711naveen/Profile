@@ -7,7 +7,7 @@ import Type from './Type'
 
 const Home1 = () => {
     return (
-        <div className='home'>
+        <div className='home' style={{fontSize:"1.2em"}}>
             <div className="row container center-home">
                 <div className="col-7 p-4">
                     <h1>Hi There!</h1>

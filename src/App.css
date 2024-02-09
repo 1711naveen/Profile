@@ -75,8 +75,20 @@
     color: white !important;
 }
 
-/* .gitBtn:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-} */
+.sub-btn {
+    background-color: #5A7684 !important;
+    /* border: 2px solid #5A7684; */
+    color: #FFFFFF;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+
+.sub-btn:hover {
+    background-color: #5a9bbc !important;
+    color: white !important;
+}
+
+.set-font {
+    font-family: 'Josefin Sans', cursive;
+}

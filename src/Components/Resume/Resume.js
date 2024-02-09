@@ -9,22 +9,24 @@ import 'react-pdf/dist/Page/AnnotationLayer.css';
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString();   
+    'pdfjs-dist/build/pdf.worker.min.js',
+    import.meta.url,
+).toString();
 
 
 const Resume = () => {
 
     return (
-        <div className='container custom-resume text-center'>
-            <button type="button" className="btn btn-success mb-5" ><FaFileDownload className='me-3 mb-1' /><strong>Download Resume</strong></button>
-            <div className="row">
-                <Document file={resume} className="d-flex justify-content-center" >
-                    <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}  scale={1.5}/>
-                </Document>
+        <div className='set-font' style={{fontSize:"1.2em"}}>
+            <div className='container custom-resume text-center'>
+                <button type="button" className="btn btn-success mb-5" ><FaFileDownload className='me-3 mb-1' /><strong>Download Resume</strong></button>
+                <div className="row">
+                    <Document file={resume} className="d-flex justify-content-center" >
+                        <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false} scale={1.5} />
+                    </Document>
+                </div>
+                <button type="button" className="btn btn-success mt-5" ><FaFileDownload className='me-3 mb-1' /><strong>Download Resume</strong></button>
             </div>
-            <button type="button" className="btn btn-success mt-5" ><FaFileDownload className='me-3 mb-1' /><strong>Download Resume</strong></button>
         </div>
     )
 }

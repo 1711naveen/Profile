@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 const Home2 = () => {
     return (
-        <div>
+        <div className='set-font' style={{fontSize:"1.2em"}}>
             <div className="row container center-home">
                 <div className="col-8 p-3">
                     <h1 className="text-center">LET ME <span className="focus-color"> INTRODUCE </span>MYSELF</h1>

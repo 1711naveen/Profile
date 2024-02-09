@@ -6,7 +6,7 @@ import SideImage from '../../Assets/tobechangedimage.jpg'
 
 const About = () => {
     return (
-        <div>
+        <div className='set-font' style={{fontSize:"1.2em"}}>
             <div className="row container center-home">
                 <div className="col-7 p-2">
                     <h1 className="text-center">Know Who <span className="focus-color"><strong> I'M</strong></span></h1>
