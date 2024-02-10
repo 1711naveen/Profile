@@ -11,7 +11,7 @@ import { FaStar } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-        <div style={{ position: "fixed", top: 0, width: "100%", zIndex: 1, fontSize:"1.3em" }}>
+        <div style={{ position: "fixed", top: 0, width: "100%", zIndex: 1, fontSize: "1.3em" }}>
             <nav className="navbar navbar-expand-lg bg-body-tertiary custom-nav">
                 <div className="container-fluid">
                     <Link className="navbar-brand ms-5 me-5 ps-5 pe-5" to="/"><span className="focus-color" style={{ fontSize: "1.2em" }}><strong>NY.</strong></span></Link>
@@ -42,13 +42,10 @@ const Navbar = () => {
                             <li className="nav-item me-5 p-1">
                                 <Link className="nav-link" to="https://github.com/1711naveen/Profile" target='_blank'>
                                     <span className='custdark'>
-                                        {/* <a href="https://google.com" target='_blank'> */}
-
-                                            <button type="button" class="btn gitBtn pb-1" >
-                                                <IoIosGitBranch className='ms-2 me-2' />
-                                                <FaStar className='me-2' />
-                                            </button>
-                                        {/* </a> */}
+                                        <button type="button" class="btn gitBtn pb-1" >
+                                            <IoIosGitBranch className='ms-2 me-2 mb-1' />
+                                            <FaStar className='me-2 mb-1' />
+                                        </button>
                                     </span>
                                 </Link>
                             </li>
