@@ -13,7 +13,7 @@ const Home1 = () => {
                     <h1>Hi There!</h1>
                     <h1>I AM <span className="focus-color"><strong>NAVEEN YADAV</strong></span></h1>
                     <br />
-                    <h1 className='focus-color'><Type /></h1>
+                    <h1 className='focus-color'><strong><Type /></strong></h1>
                     <br />
                     <br />
 

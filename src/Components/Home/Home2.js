@@ -15,7 +15,7 @@ const Home2 = () => {
         <div className='set-font' style={{fontSize:"1.2em"}}>
             <div className="row container center-home">
                 <div className="col-8 p-3">
-                    <h1 className="text-center">LET ME <span className="focus-color"> INTRODUCE </span>MYSELF</h1>
+                    <h1 className="text-center">LET ME <span className="focus-color"><strong> INTRODUCE</strong> </span>MYSELF</h1>
                     <br />
                     <p>I fell in love with <span className="focus-color"><strong>programming</strong></span> and I have atleast learned something.</p>
 
@@ -44,7 +44,7 @@ const Home2 = () => {
                     <div className="col-12">
                         <br />
                         <br />
-                        <h1 className="text-center">FIND <span className="focus-color">ME</span> ON</h1>
+                        <h1 className="text-center">FIND <span className="focus-color"><strong>ME</strong></span> ON</h1>
                         <p className="text-center">
                             Feel free to <span className="focus-color"><strong>connect</strong></span> me on
                         </p>
