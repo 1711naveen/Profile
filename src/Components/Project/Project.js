@@ -11,7 +11,7 @@ const Project = () => {
                 </div>
 
                 <div>
-                    <p className='text-center'>Here are few <span className="focus-color"><strong>projects </strong></span>I have worked on recently</p>
+                    <p className='text-center' style={{fontSize:"1.3em"}} >Here are few <span className="focus-color"><strong>projects </strong></span>I have worked on recently</p>
                 </div>
 
             </div>
