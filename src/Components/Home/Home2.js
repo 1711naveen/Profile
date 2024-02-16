@@ -49,32 +49,32 @@ const Home2 = () => {
                             Feel free to <span className="focus-color"><strong>connect</strong></span> me on
                         </p>
 
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid">
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 home-social-icon">
-                                        <li class="nav-item">
+                        <nav className="navbar navbar-expand-lg">
+                            <div className="container-fluid">
+                                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul className="navbar-nav m-auto mb-2 mb-lg-0 home-social-icon">
+                                        <li className="nav-item">
                                             <Link className='nav-link icon-color ' to="https://github.com/1711naveen/" target='_blank'>
                                                 <Tilt>
                                                     <FaGithub style={{color:"#45050C"}} />
                                                 </Tilt>
                                             </Link>
                                         </li>
-                                        <li class="nav-item">
+                                        <li className="nav-item">
                                             <Link className='nav-link icon-color' to="https://twitter.com/YnNaveen00" target='_blank'>
                                                 <Tilt>
                                                     <FaTwitter style={{color:"#45050C"}} />
                                                 </Tilt>
                                             </Link>
                                         </li>
-                                        <li class="nav-item">
+                                        <li className="nav-item">
                                             <Link className='nav-link icon-color ' to="https://www.linkedin.com/in/naveenyadav1711/" target='_blank'>
                                                 <Tilt>
                                                     <FaLinkedin style={{color:"#45050C"}} />
                                                 </Tilt>
                                             </Link>
                                         </li>
-                                        <li class="nav-item">
+                                        <li className="nav-item">
                                             <Link className='nav-link icon-color ' to="nav-link" target='_blank'>
                                                 <Tilt>
                                                     <FaSquareInstagram style={{color:"#45050C"}}/>

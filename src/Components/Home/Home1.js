@@ -9,15 +9,15 @@ const Home1 = () => {
     return (
         <div className='container home' style={{fontSize:"1.2em"}}>
             <div className="row container center-home">
-                <div className="col-7 p-4">
-                    <h1>Hi There!</h1>
-                    <h1>I AM <span className="focus-color"><strong>NAVEEN YADAV</strong></span></h1>
+                <div className="col-7 p-4 center">
+                    <h1 className='text-large'>Hi There!</h1>
+                    <h1 className='text-large'>I AM <span className="focus-color"><strong>NAVEEN YADAV</strong></span></h1>
                     <br />
                     <h1 className='focus-color'><strong><Type /></strong></h1>
                     <br />
                     <br />
                 </div>
-                <div className="col-5 p-4">
+                <div className="col-5 p-4 center">
                     <img className='img-fluid' src={lap} alt="" />
                 </div>
             </div>

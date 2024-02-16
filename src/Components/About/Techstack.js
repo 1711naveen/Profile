@@ -9,6 +9,11 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
+import { DiMongodb } from "react-icons/di";
+import { GrMysql } from "react-icons/gr";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { FaGithub } from "react-icons/fa";
+
 
 
 const Techstack = () => {
@@ -47,25 +52,20 @@ const Techstack = () => {
                     <h1 className='text-center display-2'> <TbBrandNextjs style={{ color: "#45050C" }} /></h1>
                 </div>
                 <div className="col border border-2 rounded-4 p-3 m-3 shadow-lg custom-border">
-                    <h1 className='text-center display-2'> <CgCPlusPlus style={{ color: "#45050C" }} /></h1>
+                    <h1 className='text-center display-2'> <DiMongodb style={{ color: "#45050C" }} /></h1>
                 </div>
             </div>
             <div className="row">
                 <div className="col border border-2 rounded-4 p-3 m-3 shadow-lg custom-border">
-                    <h1 className='text-center display-2'> <CgCPlusPlus style={{ color: "#45050C" }} /></h1>
+                    <h1 className='text-center display-2'> <GrMysql style={{ color: "#45050C" }} /></h1>
                 </div>
                 <div className="col border border-2 rounded-4 p-3 m-3 shadow-lg custom-border">
-                    <h1 className='text-center display-2'> <CgCPlusPlus style={{ color: "#45050C" }} /></h1>
+                    <h1 className='text-center display-2'> <BiLogoSpringBoot style={{ color: "#45050C" }} /></h1>
                 </div>
                 <div className="col border border-2 rounded-4 p-3 m-3 shadow-lg custom-border">
-                    <h1 className='text-center display-2'> <CgCPlusPlus style={{ color: "#45050C" }} /></h1>
+                    <h1 className='text-center display-2'> <FaGithub style={{ color: "#45050C" }} /></h1>
                 </div>
-                <div className="col border border-2 rounded-4 p-3 m-3 shadow-lg custom-border">
-                    <h1 className='text-center display-2'> <CgCPlusPlus style={{ color: "#45050C" }} /></h1>
-                </div>
-                <div className="col border border-2 rounded-4 p-3 m-3 shadow-lg custom-border">
-                    <h1 className='text-center display-2'> <CgCPlusPlus style={{ color: "#45050C" }} /></h1>
-                </div>
+
             </div>
         </div>
     )

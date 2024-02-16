@@ -11,8 +11,20 @@
     align-items: center;
     justify-content: center;
     margin: 180px auto 10px;
-
     /* margin: auto; */
+}
+
+@media screen and (max-width:600px) {
+    .center-home{
+        display: inline-block;
+        text-align: center;
+    }
+    .center{
+        margin: auto;
+    }
+    .text-large{
+        font-size: 2.6em;
+    }
 }
 
 .custom-project {
