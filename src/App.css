@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-
+/* to be chnaged */
 .home {
     box-sizing: border-box;
     overflow: hidden;
 }
-
+/* to be chnaged */
 .center-home {
     display: flex;
     align-items: center;

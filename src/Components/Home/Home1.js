@@ -7,7 +7,7 @@ import Type from './Type'
 
 const Home1 = () => {
     return (
-        <div className='home' style={{fontSize:"1.2em"}}>
+        <div className='container home' style={{fontSize:"1.2em"}}>
             <div className="row container center-home">
                 <div className="col-7 p-4">
                     <h1>Hi There!</h1>
@@ -16,7 +16,6 @@ const Home1 = () => {
                     <h1 className='focus-color'><strong><Type /></strong></h1>
                     <br />
                     <br />
-
                 </div>
                 <div className="col-5 p-4">
                     <img className='img-fluid' src={lap} alt="" />

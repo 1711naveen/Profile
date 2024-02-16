@@ -42,7 +42,7 @@ const Navbar = () => {
                             <li className="nav-item me-5 p-1">
                                 <Link className="nav-link" to="https://github.com/1711naveen/Profile" target='_blank'>
                                     <span className='custdark'>
-                                        <button type="button" class="btn gitBtn pb-1" >
+                                        <button type="button" className="btn gitBtn pb-1" >
                                             <IoIosGitBranch className='ms-2 me-2 mb-1' />
                                             <FaStar className='me-2 mb-1' />
                                         </button>
